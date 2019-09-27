@@ -1,0 +1,32 @@
+{
+  "name": "react-blockly-simple",
+  "version": "1.0.0",
+  "description": "A React Library for Simple Blockly Usages",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbychau/react-blockly-simple.git"
+  },
+  "author": "Abby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abbychau/react-blockly-simple/issues"
+  },
+  "homepage": "https://github.com/abbychau/react-blockly-simple",
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
